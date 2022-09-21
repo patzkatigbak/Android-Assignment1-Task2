@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@color/backgroundResult"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_LinearLayoutHeight"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textStaticHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:text="@string/text_HeaderOutputForm"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Header"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_LinearLayoutHeight"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textStaticName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_Name"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Detail"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textOutputName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_leftStart"
+            android:layout_weight="1"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Detail"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_LinearLayoutHeight"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textStaticAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_Address"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Detail"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textOutputAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_leftStart"
+            android:layout_weight="1"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Detail"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_LinearLayoutHeight"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textStaticProfession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_Profession"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Detail"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textOutputProfession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/margin_leftStart"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Detail"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_LinearLayoutHeight"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textStaticDreamJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_DreamJob"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Detail"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textOutputDreamJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/margin_leftStart"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Detail"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_LinearLayoutHeight"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_Food"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Detail"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textOutputFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_leftStart"
+            android:layout_weight="1"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_Detail"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_LinearLayoutHeight"
+        android:layout_weight="1"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="1"
+        android:background="@color/backgroundResult"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</LinearLayout>

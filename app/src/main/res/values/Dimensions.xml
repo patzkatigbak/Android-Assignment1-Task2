@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_Header" >20sp</dimen>
+    <dimen name="text_Detail" >18sp</dimen>
+    <dimen name="text_InputText" >18sp</dimen>
+    <dimen name="EditText_height" >44dp</dimen>
+    <dimen name="text_HeaderHeight" >48dp</dimen>
+    <dimen name="layout_LinearLayoutHeight" >60dp</dimen>
+    <dimen name="layout_EmptyLayout" >500dp</dimen>
+    <dimen name="text_Header_LayoutX">115dp</dimen>
+    <dimen name="text_Header_LayoutY">24dp</dimen>
+    <dimen name="margin_leftStart" >10sp</dimen>
+</resources>
