@@ -23,7 +23,7 @@ public class ResultActivity extends AppCompatActivity {
         String s_address = intent.getStringExtra("Address");
         String s_profession = intent.getStringExtra("Profession");
         String s_dreamJob = intent.getStringExtra("DreamJob");
-        String s_favoriteJob = intent.getStringExtra("FavoriteFood");
+        String s_favoriteJob = intent.getStringExtra("Food");
 
         //assign the declared textViews to the screen textViews
         textOutputName = findViewById(R.id.textOutputName);

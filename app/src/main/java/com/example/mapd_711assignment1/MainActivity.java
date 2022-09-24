@@ -1,9 +1,8 @@
 package com.example.mapd_711assignment1;
 
 /*
-    Project:     MAPD-711 Assignment 1
-    Description: New Android application to get user input by filling up the form from Main Activity
-                 then print the output into 2nd Activity when submit button is clicked
+    Project:     MAPD-711 Assignment  - Task 2
+    Description: When Button is clicked, the ResultActivity will be opened and display the values from String.xml
     Author:      Patrick Katigbak
     Date:        20-Sept 2022
 */
@@ -29,11 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
         //assign the declared editTexts and Button to the screen components.
         buttonSubmit = findViewById(R.id.buttonSubmit);
-        editTextName = findViewById(R.id.editTextName);
-        editTextAddress = findViewById(R.id.editTextAddress);
-        editTextProfession = findViewById(R.id.editTextProfession);
-        editTextDreamJob = findViewById(R.id.editTextDreamJob);
-        editTextFood = findViewById(R.id.editTextFood);
 
     }
 
@@ -43,22 +37,22 @@ public class MainActivity extends AppCompatActivity {
     */
     public void submitForm(View view)
     {
-        //Store the value of Screen editText components to local String variables
-        String s_name = editTextName.getText().toString();
-        String s_address = editTextAddress.getText().toString();
-        String s_profession = editTextProfession.getText().toString();
-        String s_dreamJob = editTextDreamJob.getText().toString();
-        String s_favoriteFood = editTextFood.getText().toString();
-
 
         //To save the data in Intent - to be passed on the next Activity
         Intent intent = new Intent(this, ResultActivity.class);
+        String staticName = getString(R.string.staticName);
+        String staticAddress = getString(R.string.staticAddress);
+        String staticProfession = getString(R.string.staticProfession);
+        String staticDreamJob = getString(R.string.staticDreamJob);
+        String staticFood = getString(R.string.staticFood);
 
-        intent.putExtra("Name",s_name);
-        intent.putExtra("Address",s_address);
-        intent.putExtra("Profession",s_profession);
-        intent.putExtra("DreamJob",s_dreamJob);
-        intent.putExtra("FavoriteFood",s_favoriteFood);
+
+        intent.putExtra("Name",staticName);
+        intent.putExtra("Address",staticAddress);
+        intent.putExtra("Profession",staticProfession);
+        intent.putExtra("DreamJob",staticDreamJob);
+        intent.putExtra("Food",staticFood);
+
 
         //Run next Activity
         startActivity(intent);

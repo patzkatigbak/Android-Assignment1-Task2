@@ -3,167 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_weight="1"
     android:background="@color/backgroundMain"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/layout_LinearLayoutHeight"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textStaticHeader"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center|center_horizontal"
-            android:text="@string/text_HeaderInputForm"
-            android:textColor="@color/blue"
-            android:textSize="@dimen/text_Header"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="115dp"
-            tools:layout_editor_absoluteY="24dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/layout_LinearLayoutHeight"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textStaticName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/text_Name"
-            android:textColor="@color/blue"
-            android:textSize="@dimen/text_Detail"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/editTextName"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/EditText_height"
-            android:hint="@string/textHint_Name"
-            android:inputType="textPersonName" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/layout_LinearLayoutHeight"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textStaticAddress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/text_Address"
-            android:textColor="@color/blue"
-            android:textSize="@dimen/text_Detail"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/editTextAddress"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/EditText_height"
-            android:hint="@string/textHint_Address"
-            android:inputType="text" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/layout_LinearLayoutHeight"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textStaticProfession"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/text_Profession"
-            android:textColor="@color/blue"
-            android:textSize="@dimen/text_Detail"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/editTextProfession"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/EditText_height"
-            android:hint="@string/textHint_Profession"
-            android:inputType="text" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/layout_LinearLayoutHeight"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textStaticDreamJob"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/text_DreamJob"
-            android:textColor="@color/blue"
-            android:textSize="@dimen/text_Detail"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/editTextDreamJob"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/EditText_height"
-            android:hint="@string/textHint_DreamJob"
-            android:inputType="text" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/layout_LinearLayoutHeight"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/text_Food"
-            android:textColor="@color/blue"
-            android:textSize="@dimen/text_Detail"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/editTextFood"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/EditText_height"
-            android:hint="@string/textHint_Food"
-            android:inputType="text" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/layout_LinearLayoutHeight"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/buttonSubmit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:onClick="submitForm"
-            android:text="@string/button_Submit" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/layout_EmptyLayout"
-        android:layout_weight="1"
-        android:background="@color/backgroundMain"
-        android:orientation="horizontal">
-    </LinearLayout>
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        android:onClick="submitForm"
+        android:text="@string/button_Submit" />
 
 </LinearLayout>

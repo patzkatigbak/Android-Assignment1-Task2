@@ -7,10 +7,11 @@
     <string name="text_Profession">Your Profession: </string>
     <string name="text_DreamJob">Your Dream job: </string>
     <string name="text_Food">Favorite Food: </string>
-    <string name="textHint_Name">Type Your Name</string>
-    <string name="textHint_Address">Type Your Address</string>
-    <string name="textHint_Profession">Past or current job</string>
-    <string name="textHint_DreamJob">Type here</string>
-    <string name="textHint_Food">Type here</string>
     <string name="button_Submit">Submit</string>
+    <string name="staticName">Patrick</string>
+    <string name="staticAddress">Canada</string>
+    <string name="staticProfession">Bus Driver</string>
+    <string name="staticDreamJob">Astronaut</string>
+    <string name="staticFood">Fried Chicken</string>
+
 </resources>
