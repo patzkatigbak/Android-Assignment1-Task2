@@ -2,16 +2,15 @@
     <string name="app_name">MAPD-711 Assignment 1</string>
     <string name="text_HeaderInputForm">Student Input Form:</string>
     <string name="text_HeaderOutputForm">Student Profile:</string>
-    <string name="text_Name">Your Name: </string>
-    <string name="text_Address">Your Address: </string>
-    <string name="text_Profession">Your Profession: </string>
-    <string name="text_DreamJob">Your Dream job: </string>
-    <string name="text_Food">Favorite Food: </string>
+    <string name="text_Name">Name: </string>
+    <string name="text_Address">Address: </string>
+    <string name="text_Profession">Profession: </string>
+    <string name="text_DreamJob">Dream job: </string>
+    <string name="text_Food">Food: </string>
     <string name="button_Submit">Submit</string>
     <string name="staticName">Patrick</string>
     <string name="staticAddress">Canada</string>
     <string name="staticProfession">Bus Driver</string>
     <string name="staticDreamJob">Astronaut</string>
     <string name="staticFood">Fried Chicken</string>
-
 </resources>

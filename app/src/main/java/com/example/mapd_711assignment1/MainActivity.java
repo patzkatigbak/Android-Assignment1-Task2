@@ -38,15 +38,17 @@ public class MainActivity extends AppCompatActivity {
     public void submitForm(View view)
     {
 
-        //To save the data in Intent - to be passed on the next Activity
+        //Define intent for data to be passed to the next Activity
         Intent intent = new Intent(this, ResultActivity.class);
+
+        //Retrieve the static values from strings.xml using getString(R.string.<tagname>)
         String staticName = getString(R.string.staticName);
         String staticAddress = getString(R.string.staticAddress);
         String staticProfession = getString(R.string.staticProfession);
         String staticDreamJob = getString(R.string.staticDreamJob);
         String staticFood = getString(R.string.staticFood);
 
-
+        //Add the data to intent to be passed on next activity
         intent.putExtra("Name",staticName);
         intent.putExtra("Address",staticAddress);
         intent.putExtra("Profession",staticProfession);
