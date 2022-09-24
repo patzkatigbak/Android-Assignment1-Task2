@@ -1,10 +1,11 @@
 package com.example.mapd_711assignment1;
 
 /*
-    Project:     MAPD-711 Assignment  - Task 2
-    Description: When Button is clicked, the ResultActivity will be opened and display the values from String.xml
-    Author:      Patrick Katigbak
-    Date:        20-Sept 2022
+    Project:       MAPD-711 Assignment  - Task 2
+    Description:   When Button is clicked, the ResultActivity will be opened and display the values from String.xml
+    Language Used: Java
+    Author:        Patrick Katigbak
+    Date:          20-Sept 2022
 */
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -54,8 +55,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("Profession",staticProfession);
         intent.putExtra("DreamJob",staticDreamJob);
         intent.putExtra("Food",staticFood);
-
-
+        
         //Run next Activity
         startActivity(intent);
 
